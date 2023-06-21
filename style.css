@@ -1,37 +1,101 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: bordex-box;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.center{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1280px;
-    margin:0 auto;
-    padding:0 2%;
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header{
-    display: block;
-    padding:20px 0;
-    }
-
-.logo{
-    width: 50px;
+.logo img {
+  max-width: 100px;
 }
 
-.menu{
-    display: block;
-    text-align: center;
-    padding-top:30px;
-    width:50%;
-    padding: 14px 16px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.menu a{
-    color:black;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 60px;
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+section {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+}
+
+.meio {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.meio p {
+  margin-left: 20px;
+}
+
+.planos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid black
+  
+}
+
+.planos figure img {
+  width: 170px;
+}
+
+
+.cards .card .card-cima img {
+  width: 100px;
+}
+
+.card{
+  width: 200px;
+  }
+
+.card-cima {
+  border: 1px solid black;
+}
+
+.card button{
+  margin: 1rem 0;
+  padding: .5rem 2rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
