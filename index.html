@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Wireframe</title>
+    <title>Landing page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -12,130 +12,128 @@
             <img src="assets/logo.png" alt="Logo">
         </div>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#">Recursos</a></li>
                 <li><a href="#">Sobre nós</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a href="#">Preços</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h1>Help Desk</h1>
-            <div class="meio">
-            <img src="assets/helpdesk.jpg" alt="helpdesk">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac sapien nec ex tempor aliquet. Ut lobortis
-                felis eu
-                nisi euismod, sed lacinia lectus tempus. Phasellus congue dui mauris, a gravida est facilisis at. Mauris
-                finibus
-                nibh vitae ligula ultricies, vel sollicitudin mauris tincidunt. Nulla facilisi. Donec congue fringilla
-                lacus ac
-                faucibus. Sed congue augue vel malesuada facilisis.</p>
             </div>
-        </section>
-    </main>
-<section class="planos">
-      <figure>
-        <img src="assets/desk.jpg" alt="foto" >
-        <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Obcaecati eligendi distinctio placeat porro, est ad sint 
-          voluptas facere numquam expedita.</figcaption>
-        </figure>
-    <figure>
-      <img src="assets/desk.jpg" alt="foto" >
-      <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Obcaecati eligendi distinctio placeat porro, est ad sint 
-          voluptas facere numquam expedita.</figcaption>
-        </figure>
-    <figure>
-      <img src="assets/desk.jpg" alt="foto" >
-        <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Obcaecati eligendi distinctio placeat porro, est ad sint 
-          voluptas facere numquam expedita.</figcaption>
-        </figure>
-    <figure>
-      <img src="assets/desk.jpg" alt="foto" >
-      <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Obcaecati eligendi distinctio placeat porro, est ad sint 
-          voluptas facere numquam expedita.</figcaption>
-        </figure>
-      <figure>
-          <img src="assets/desk.jpg" alt="foto" >
-        <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Obcaecati eligendi distinctio placeat porro, est ad sint 
-          voluptas facere numquam expedita.</figcaption>
-        </figure>
-      <figure>
-        <img src="assets/desk.jpg" alt="foto" >
-        <figcaption>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Obcaecati eligendi distinctio placeat porro, est ad sint 
-          voluptas facere numquam expedita.</figcaption>
-      </figure>
-    </section>
-
-
-    <section class="cards">
-      <h1>Planos</h1>
-  <div class="cards">
-  <div class="card">
-    <div class="card-cima">
-      <img src="assets/desk.jpg" alt="planos">
-    <h3>G</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Numquam asperiores voluptatibus ipsum.</p>
-  </div>
-  <button>Assinar</button>
-  </div>
-  
-  <div class="card">
-    <div class="card-cima">
-      <img src="assets/desk.jpg" alt="planos">
-    <h3>Valor</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Numquam asperiores voluptatibus ipsum.</p>
-  </div>
-  <button>Assinar</button>
-  </div>
-  
-  <div class="card">
-    <div class="card-cima">
-      <img src="assets/desk.jpg" alt="planos">
-    <h3>Valor</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Numquam asperiores voluptatibus ipsum.</p>
-  </div>
-  <button>Assinar</button>
-  </div>
-  
-  <div class="card">
-    <div class="card-cima">
-      <img src="assets/desk.jpg" alt="planos">
-    <h3>Valor</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Numquam asperiores voluptatibus ipsum.</p>
-  </div>
-  <button>Assinar</button>
-  </div>
-  
-  <div class="card">
-    <div class="card-cima">
-      <img src="assets/desk.jpg" alt="planos">
-    <h3>Valor</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Numquam asperiores voluptatibus ipsum.</p>
-  </div>
-  <button>Assinar</button>
-  </div>
-   </section>
- </body>
- <footer>
+                <div class="button-headercontainer">
+                 <button class="headerButton" id="loginButton">Login</button>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    
+    <div id="conteudo-pai"></div>
   <div class="container">
+            <div class="text">
+              <h1>HelpDesk</h1>
+            <h2>Conheça nosso HelpDesk: nossa solução de atendimento ao cliente do Senac</h2>
+            <p>Com ele, é possível realizar o controle dos chamados de suporte, analisar a qualidade dos atendimentos e aumentar a satisfação dos clientes, receber e disparar chamados para a equipe de field service e muito mais.</p>
+            <div class="button-container">
+              <button class="button2">Saiba mais</button>
+    </div>
+  </div>
+           <div class="image">
+            <img src="assets/helpdesk.png" alt="HelpDesk Imagem">
+    </div>
+  </div>
+
+  <section id="recursos" class="section-recursos">
+    <h1 class="recursos-title">Descubra nossos poderosos recursos de Help Desk</h1>
+    <div class="recursos-container">
+        <div class="registro">
+          <img src="assets/registrologo.png" alt="Registro icone">
+          <h3>Registro e acompanhamento de chamados</h3>
+          <p>
+            permite registrar e acompanhar as solicitações de suporte dos clientes de forma organizada. Cada chamado é documentado com informações relevantes, como descrição do problema, prioridade, status e histórico de interações.
+          </p>
+        </div>
+
+        <div class="comunicacao">
+          <img src="assets/comunicacaologo.png" alt="Comunicação icone">
+          <h3>Comunicação com os clientes</h3>
+          <p>
+            Um recurso essencial é a capacidade de interagir com os clientes de forma eficiente. Isso pode incluir o envio de notificações automáticas de atualização de chamados, comunicação por e-mail integrada e a possibilidade de fornecer respostas e soluções diretamente na plataforma.
+          </p>
+        </div>
+
+        <div class="conhecimento">
+          <img src="assets/conheclogo.png" alt="Conhecimento icone">
+          <h3>Base de conhecimento</h3>
+          <p>
+            Uma base de conhecimento é uma biblioteca de artigos, tutoriais e soluções para problemas comuns. Essa ferramenta permite que os clientes encontrem respostas para suas dúvidas ou problemas antes de abrir um chamado. Além disso, ajuda a reduzir o tempo de resposta do suporte.
+          </p>
+        </div>
+
+        <div class="relatorio">
+          <img src="assets/relatorioslogo.png" alt="Relatorios icone">
+          <h3>Relatórios e análises</h3>
+          <p>
+            Os recursos de relatórios e análises permitem monitorar e avaliar o desempenho do Help Desk. Isso inclui métricas como tempo médio de resposta, tempo médio de resolução, taxa de resolução no primeiro contato e satisfação do cliente. Essas informações são valiosas para melhorar a eficiência do suporte e identificar áreas que precisam de atenção.
+          </p>
+        </div>
+    <button class="button3"><a href="#">Veja mais</a></button>
+  </section>
+<section id="planos" class="section-planos">
+    <h1 class="planos-title">Conheça nossos Planos</h1>
+    <div class="planos-container">
+        <div class="basico">
+          <img src="assets/registrologo.png" alt="Basico icone">
+          <h3>Básico</h3>
+          <h4>Grátis</h4>
+          <h4>Pacote básico</h4>
+          <div class="grid-conteudo">
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            </div>
+          </div>
+        <button class="button4"><a href="#">Contrate agora</a></button>
+
+        <div class="plus">
+          <img src="assets/comunicacaologo.png" alt="Plus icone">
+          <h3>Plus</h3>
+          <h4>R$:59.99</h4>
+          <h4>Pacote intermediário</h4>
+          <div class="grid-conteudo">
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+         </div>
+        </div>
+        <button class="button4"><a href="#">Contrate agora</a></button>
+
+        <div class="premium">
+          <img src="assets/conheclogo.png" alt="Premium icone">
+          <h3>Premium</h3>
+          <h4>R$:99.99</h4>
+          <h4>Pacote completo</h4>
+          <div class="grid-conteudo">
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+            <li><a>Lorem psum dolor</a></li>
+      </div>
+      </div>
+    <button class="button4"><a href="#">Contrate agora</a></button>
+  </section>
+ </body>
+ 
+ <footer>
+  <div class="container2">
     <div class="footer-links">
       <ul>
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Recursos</a></li>
+        <li><a href="#">Clientes</a></li>
+        <li><a href="#">Acessibilidade</a></li>
         <li><a href="#">Serviços</a></li>
         <li><a href="#">Empresa</a></li>
       </ul>
@@ -143,9 +141,6 @@
         <div class="footer-social">
         <h5>Direitos autorais © Senac. Todos os direitos reservados</h5>
         </ul>
-    </div>
-    <div class="footer-logo">
-      <img src="assets/logo.png" alt="HelpDesk Logo">
     </div>
 </footer>
 </html>
